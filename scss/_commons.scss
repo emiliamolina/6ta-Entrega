@@ -1,0 +1,92 @@
+// vars esquema de color
+
+$mainColor: rgba(238, 188, 247, 0.7);
+$secondaryColor: rgba(54, 7, 44, 0.781);
+$keyColor: #80436d;
+$whiteColor:rgb(243, 240, 240);
+
+h1{
+    color: $keyColor;
+    font-size: $textXlg;
+    
+    font-weight: $textBold;
+    font-style: italic;
+    
+}
+
+h2{
+    font-size: $textLg;
+    color: $secondaryColor;
+    font-weight: $textThin;
+}
+
+h3{
+    font-size: $textMd;
+}
+
+h4{
+    font-size: $textSm;
+    color: $keyColor;
+}
+
+.pie__icon--sm{
+	width: 40px;
+}
+
+.pie__icon--md{
+	width: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+body{
+    background-image: url(../imagenes/Fondo.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+
+.bg-grey{
+    background-color: $secondaryColor !important;
+    color: $whiteColor;
+    font-weight: 500;
+    border: black 100px !important;
+}
+
+
+.bg-violet{
+background-color: $mainColor;
+}
+
+
+.flex{
+display: flex;
+}
+
+.w-200{
+width: 200px;
+}
+
+.w-150{
+width: 150px;
+}
+
+.radial-gradient{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.aside{
+    font-size: $textMd;
+}
+
+.flexEnd{
+    align-content: flex-end;
+}
+
+.flexStart{
+    align-content: flex-start;
+}
+

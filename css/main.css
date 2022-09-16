@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Roboto:ital@1&display=swap");
+h1 {
+  color: #80436d;
+  font-size: textXlg;
+  font-family: mainFont;
+  font-weight: textBold;
+  font-style: italic;
+}
+
+h2 {
+  font-size: textLg;
+  color: rgba(54, 7, 44, 0.781);
+  font-weight: textThin;
+}
+
+h3 {
+  font-size: textMd;
+}
+
+h4 {
+  font-size: textSm;
+  color: #80436d;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.pie__icon--md {
+  width: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-image: url(../imagenes/Fondo.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.bg-grey {
+  background-color: rgba(54, 7, 44, 0.781) !important;
+  color: rgb(243, 240, 240);
+  font-weight: 500;
+  border: black 100px !important;
+}
+
+.bg-violet {
+  background-color: rgba(238, 188, 247, 0.7);
+}
+
+.flex {
+  display: flex;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.radial-gradient {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+.aside {
+  font-size: textXl;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.centrado {
+  align-items: center;
+}
+
+.botonera img {
+  width: 180px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */
